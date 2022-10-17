@@ -4,6 +4,12 @@
 
 The javascript and java programs are based off of examples provided by AWS for using their SDKs. `App.js` is from an example provided by node for running local web servers, the arduino program is based on an example provided in the library for the breakout board, and the serialcomm.java is from my old cse132 code.
 
+## Project Structure
+
+- `arduino/` contains the arduino sketch that will read the temperature data from the thermocouple and send it over a serial connection
+- `java/` has the code that should be put on a raspberry pi. It has code to read data from a serial connection and then publish it to an AWS IoT Topic
+- `javascript/` contains the node.js application that can be placed on any desktop/laptop to display the temperature by subscribing to the topic
+
 ## Install
 
 ### Arduino
