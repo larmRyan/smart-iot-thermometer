@@ -7,7 +7,7 @@ The javascript and java programs are based off of examples provided by AWS for u
 ## Project Structure
 
 - `arduino/` contains the arduino sketch that will read the temperature data from the thermocouple and send it over a serial connection
-- `java/` has the code that should be put on a raspberry pi. It has code to read data from a serial connection and then publish it to an AWS IoT Topic
+- `java/` has the code that should be put on a raspberry pi. It has code to read data from a serial connection and then publish it to an AWS IoT topic
 - `javascript/` contains the node.js application that can be placed on any desktop/laptop to display the temperature by subscribing to the topic
 
 ## Install
